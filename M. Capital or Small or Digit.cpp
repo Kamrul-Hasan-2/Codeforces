@@ -3,7 +3,7 @@ using namespace std;
 int main() {
     char ch;
     cin>> ch;
-    if('ch'=='65' && 'ch'=='90'){
+    if('ch'==65 && 'ch'==90){
         cout << "ALPHA"<< endl;
         cout<< "IS CAPITAL" << endl;
     }
