@@ -10,6 +10,5 @@ int main() {
     }
     else cout << "NOT"<< endl;
 
-    
     return 0;
 }
