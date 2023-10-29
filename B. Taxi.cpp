@@ -10,6 +10,7 @@ int main(){
     bool hasFour = false;
 	bool hasThree = false;
     bool hasTwo = false;
+	bool hasOne = false;
 	//int sum = 0;
  
 	for(int i = 0; i<n; i++){
@@ -24,6 +25,9 @@ int main(){
         else if(x == 2){
             hasTwo = true;
         }
+		else{
+			hasOne = true;
+		}
 	}
  
 	if(hasFour){
@@ -33,17 +37,5 @@ int main(){
 	}else{
 		cout << ceil(sum/4.0) << endl;
 	}
-
-    // for(int i=0; i<n; i++){
-    //     cin>> A[i];
-    // }
-
-    // for(int i=0; i<n; i++){
-    //     sum+=A[i];
-    // }
-
-    // d = sum/4.0;
-    // cout <<ceil(d) << endl;
-   
     return 0;
 }
