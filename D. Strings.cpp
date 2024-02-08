@@ -6,17 +6,33 @@ using namespace std;
 #define IOS ios_base::sync_with_stdio(false); cin.tie(NULL)
 
 void solution() {
-    string s1, s2, res, res2, res3;
-    cin >> s1 >> s2;
-    // res = s1 + s2;
-    // cout << s1.length() << " " << s2.length() << nl;
-    // cout << res << nl;
+   string s1, s2, s3,s4,s5, s6;
 
-   // cout << s1.substr(0, 1) ;
-   cout << s2.substr(s2.length()) ;
-//       res2 = s2 + " " + s1.substr(1) + " " + s1.substr(0, 1) + s2;
-//     // cout << res2 << nl;
-}
+   cin >> s1 >> s2;
+
+   cout << s1.length() << " " << s2.length() << nl;
+   cout << s1 + s2 << nl;
+
+   s3= s1.substr(1);
+
+   s4 = s2.substr(1);
+
+   for(int i=1; i<=s1.size(); i++){
+        s5 = s1[0];
+   }
+   
+
+   for(int i=1; i<=s2.size(); i++){
+        s6 = s2[0];
+   }
+
+    cout << s6 + s3 << " " << s5 + s4;
+
+  
+
+
+    
+} 
 
 int32_t main() {
     IOS;
