@@ -6,22 +6,18 @@ using namespace std;
 #define IOS ios_base::sync_with_stdio(false); cin.tie(NULL)
 
 void solution() {
-    string s; cin >> s;
-    int count=0;
-    sort(s.begin(), s.end());
+    string s;
+    getline(cin, s);
+
+    stringstream ss(s);
+    string word;
     
-    for(int i =0; i<s.size(); i++){
-        if(s[i] != s[i-1]){
-            count++;
+    while(ss >> word){
+        for(int i=0; i<word.size(); i++){
+            word[i] = toupper(word[i]);
         }
+        cout << word<< endl;
     }
-
-    if(count %2==0){
-        cout << "CHAT WITH HER!" << endl;
-    }else{
-        cout << "IGNORE HIM!" << endl;
-    }
-
 }
 
 int32_t main() {

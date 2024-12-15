@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"c:\\Users\\Kamrul\\Documents\\GitHub\\Codeforces\\A. Short Sort.cpp","tests":[{"id":1734266632795,"input":"\n6\nabc\nacb\nbac\nbca\ncab\ncba\n","output":"YES\nYES\nYES\nNO\nNO\nYES\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Kamrul\\Documents\\GitHub\\Codeforces\\A. Short Sort.cpp","group":"local","local":true}

@@ -6,21 +6,16 @@ using namespace std;
 #define IOS ios_base::sync_with_stdio(false); cin.tie(NULL)
 
 void solution() {
-    string s; cin >> s;
-    int count=0;
-    sort(s.begin(), s.end());
-    
-    for(int i =0; i<s.size(); i++){
-        if(s[i] != s[i-1]){
-            count++;
-        }
-    }
+   tc{
+    string s; cin>> s;
 
-    if(count %2==0){
-        cout << "CHAT WITH HER!" << endl;
+    if(s == "abc" || s == "acb" || s == "bac" || s == "cba"){
+        cout << "YES" <<nl;
     }else{
-        cout << "IGNORE HIM!" << endl;
+        cout << "NO" << nl;
     }
+    
+   }
 
 }
 
