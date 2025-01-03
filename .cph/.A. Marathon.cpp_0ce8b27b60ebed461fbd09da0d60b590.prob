@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"c:\\Users\\Kamrul\\Documents\\GitHub\\Codeforces\\A. Marathon.cpp","tests":[{"id":1734459407922,"input":"4\n2 3 4 1\n10000 0 1 2\n500 600 400 300\n0 9999 10000 9998\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Kamrul\\Documents\\GitHub\\Codeforces\\A. Marathon.cpp","group":"local","local":true}
